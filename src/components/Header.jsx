@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
     rank: {
-        fontFamily: '"Comic Sans MS", Gadget, cursive, sans-serif',
+        fontFamily: '"Comic Sans MS", Gadget, sans-serif',
         textTransform: "uppercase",
     },
     higherRank: {

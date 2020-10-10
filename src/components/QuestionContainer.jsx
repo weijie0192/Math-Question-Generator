@@ -9,11 +9,14 @@ const useStyles = makeStyles((theme) => ({
     container: {
         marginTop: theme.mixins.toolbar.minHeight + 20,
         marginBottom: 20,
+        display: "flex",
+        flexFlow: "column",
+        alignItems: "center",
     },
     generateBtn: {
         borderRadius: "50px",
-        margin: "0 25%",
         width: "50%",
+        minWidth: 250,
     },
 }));
 
@@ -76,9 +79,6 @@ const QuestionContainer = ({ level, handleUpdateXP }) => {
             >
                 Refresh {getRank(level)} Questions {shouldGenerateCostXP && "(-50 XP)"}
             </Button>
-            <br />
-            <br />
-            <Divider />
             <br />
 
             <Grid container spacing={2}>
