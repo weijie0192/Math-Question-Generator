@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, makeStyles, Container, Divider, Grid } from "@material-ui/core";
+import { Button, makeStyles, Container, Grid } from "@material-ui/core";
 import usePersistState from "usePersistState";
 import { generateQuestionsByLevel } from "mathFactory";
 import { getRank } from "common";
