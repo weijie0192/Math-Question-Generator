@@ -1,25 +1,15 @@
 {
-  "short_name": "Hibachi House",
-  "name": "Hibachi House",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    }
-  ],
-  "start_url": "/hibachihouse/",
-  "display": "standalone",
-  "theme_color": "#fafafa",
-  "background_color": "#fafafa"
+    "short_name": "MathQ",
+    "name": "Math Questions",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        }
+    ],
+    "start_url": "/math",
+    "display": "standalone",
+    "theme_color": "#fafafa",
+    "background_color": "#fafafa"
 }
