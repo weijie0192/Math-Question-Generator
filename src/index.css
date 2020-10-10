@@ -10,10 +10,10 @@ body {
         "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #fafafa;
     height: 100%;
     margin: 0;
     overflow: hidden;
+    background: #3f51b5;
 }
 
 code {
